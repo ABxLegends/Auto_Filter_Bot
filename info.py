@@ -225,7 +225,7 @@ HAS_SSL = bool(getenv('HAS_SSL', True))
 if HAS_SSL:
     URL = "https://vicious-amaleta-guill-ermosay-69eceb48.koyeb.app/".format(FQDN)
 else:
-    URL = "vicious-amaleta-guill-ermosay-69eceb48.app".format(FQDN)
+    URL = "vicious-amaleta-guill-ermosay-69eceb48.koyeb.app".format(FQDN)
 
 # ============================
 # Reactions Configuration
