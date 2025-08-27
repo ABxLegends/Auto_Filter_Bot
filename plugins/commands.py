@@ -107,6 +107,7 @@ async def start(client, message):
                     InlineKeyboardButton('ᴜᴘɢʀᴀᴅᴇ ', callback_data="premium_info"),
                 ],[
                 InlineKeyboardButton('ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=UPDATE_CHNL_LINK)
+                  ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         current_time = datetime.now(pytz.timezone(TIMEZONE))
         curr_time = current_time.hour        
